@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandle
 
 TELEGRAM_TOKEN = '8795476073:AAEet0uforn1XYqdCumcpIJ8qfuPYMbvRMU' # Telegram Token
 API_KEY = 'eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE4MjI5Mjc2NjYsImlhdCI6MTc5MTM5MTY2NiwicmF5IjoiNzZkYjVjNmNiZDk1MzIxMmZhZjg4ZGJiN2I4MTRhZWEiLCJzdWIiOjQ2MDYwMDR9.SE-noc5lnGra4TVtQMnC93D2E88xUdLV0u4vND1bxIIKQjsnag18ZuaCMVy6Ibdqkh1bOMtmWqqFIX3_U81bpD2IuJeO_fX8x1t6PYPpp0knqiN65i8QMpovz0DlhEZ8vo5PNoGG8gMecb_NxhO5b1KtmQo_CmL4hGpvnSsfJ2bkDaMgqJGPu2TmtMBwfgqrInHT6e8VOhsVwc2ZQOkESUOa3eXAGMMZ2UFhIffo1eUY-LXTa9xvtmMlV_DqrstUeb9vaIT6jJ-a7eA35voVL9PIhK5cjKrH2KD-W5CLIYSq_fljTo0AOZuK-4KJagEfqVEDO3l8TfsTQ4Hr_Q95Tw' #5sim's API Key
-ADMIN_USER_IDS = []  # Replace with the actual admin's user ID
+ADMIN_USER_IDS = [7957263184]  # Replace with the actual admin's user ID
 
 # Dictionary to store authorized users and their expiration times
 authorized_users = {7957263184}
